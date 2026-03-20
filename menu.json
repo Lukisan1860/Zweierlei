@@ -24,5 +24,19 @@
       "category": "mains",
       "image": "https://raw.githubusercontent.com/Lukisan1860/Zweierlei/refs/heads/main/chicken-burger.jpg"
     }
+ {
+      "id": "3",
+      "name": "Spezi",
+      "description": "",
+      "price": 2.00,
+      "category": "drinks",
+      "image": ""
+    }
+
+    
+
+
+
+    
   ]
 }
