@@ -1,19 +1,19 @@
 {
   "restaurantName": "Zweierlei",
   "categories": [
-    { "id": "starters", "name": "Starters" },
-    { "id": "mains", "name": "Main Courses" },
+    { "id": "starters", "name": "Vorspeisen" },
+    { "id": "mains", "name": "Hauptgang" },
     { "id": "desserts", "name": "Desserts" },
-    { "id": "drinks", "name": "Drinks" }
+    { "id": "drinks", "name": "Getränke" }
   ],
   "items": [
     {
       "id": "1",
       "name": "Schnitzel",
-      "description": "Freshly prepared daily with local ingredients.",
+      "description": "Schweineschnitzel.",
       "price": 12.50,
       "category": "mains",
-      "image": "https://picsum.photos/seed/soup/600/400",
+      "image": "https://raw.githubusercontent.com/Lukisan1860/Zweierlei/refs/heads/main/wiener_schnitzel_glaenzende_panade.jpg",
       "dietary": ["vegetarian", "gluten-free"]
     },
     {
