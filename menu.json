@@ -1,0 +1,67 @@
+import { RestaurantMenu } from './types';
+
+// Default menu data to show if the external fetch fails or hasn't been configured yet.
+export const DEFAULT_MENU: RestaurantMenu = {
+  restaurantName: "L'Artisan Bistro",
+  categories: [
+    { id: 'starters', name: 'Starters' },
+    { id: 'mains', name: 'Main Courses' },
+    { id: 'desserts', name: 'Desserts' },
+    { id: 'drinks', name: 'Drinks' }
+  ],
+  items: [
+    {
+      id: '1',
+      name: 'Truffle Arancini',
+      description: 'Crispy risotto balls with black truffle and mozzarella, served with garlic aioli.',
+      price: 14,
+      category: 'starters',
+      image: 'https://picsum.photos/seed/arancini/600/400',
+      dietary: ['vegetarian']
+    },
+    {
+      id: '2',
+      name: 'Burrata & Heirloom Tomato',
+      description: 'Creamy burrata, balsamic glaze, fresh basil, and toasted sourdough.',
+      price: 16,
+      category: 'starters',
+      image: 'https://picsum.photos/seed/burrata/600/400',
+      dietary: ['vegetarian', 'gluten-free-option']
+    },
+    {
+      id: '3',
+      name: 'Pan-Seared Scallops',
+      description: 'Hokkaido scallops with pea purée, crispy pancetta, and lemon butter.',
+      price: 28,
+      category: 'mains',
+      image: 'https://picsum.photos/seed/scallops/600/400'
+    },.j
+    {
+      id: '4',
+      name: 'Wild Mushroom Risotto',
+      description: 'Arborio rice with porcini, shiitake, and oyster mushrooms, finished with parmesan.',
+      price: 24,
+      category: 'mains',
+      image: 'https://picsum.photos/seed/risotto/600/400',
+      dietary: ['vegetarian', 'gluten-free']
+    },
+    {
+      id: '5',
+      name: 'Dark Chocolate Fondant',
+      description: 'Warm chocolate cake with a molten center, served with vanilla bean gelato.',
+      price: 12,
+      category: 'desserts',
+      image: 'https://picsum.photos/seed/chocolate/600/400',
+      dietary: ['vegetarian']
+    },
+    {
+      id: '6',
+      name: 'Artisanal Cheese Board',
+      description: 'Selection of local cheeses, honeycomb, grapes, and house-made crackers.',
+      price: 18,
+      category: 'desserts',
+      image: 'https://picsum.photos/seed/cheese/600/400',
+      dietary: ['vegetarian']
+    }
+  ]
+};
