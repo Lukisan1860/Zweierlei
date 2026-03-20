@@ -19,7 +19,7 @@
     {
       "id": "2",
       "name": "Zweierlei Burger",
-      "description": "Premium beef, house-made sauce, caramelized onions, and brioche bun.",
+      "description": "",
       "price": 18.00,
       "category": "mains",
       "image": "https://picsum.photos/seed/burger/600/400"
