@@ -1,65 +1,37 @@
-
-export const DEFAULT_MENU: RestaurantMenu = {
-  restaurantName: "L'Artisan Bistro",
-  categories: [
-    { id: 'starters', name: 'Starters' },
-    { id: 'mains', name: 'Main Courses' },
-    { id: 'desserts', name: 'Desserts' },
-    { id: 'drinks', name: 'Drinks' }
+{
+  "restaurantName": "Zweierlei",
+  "categories": [
+    { "id": "starters", "name": "Starters" },
+    { "id": "mains", "name": "Main Courses" },
+    { "id": "desserts", "name": "Desserts" },
+    { "id": "drinks", "name": "Drinks" }
   ],
-  items: [
+  "items": [
     {
-      id: '1',
-      name: 'Truffle Arancini',
-      description: 'Crispy risotto balls with black truffle and mozzarella, served with garlic aioli.',
-      price: 14,
-      category: 'starters',
-      image: 'https://picsum.photos/seed/arancini/600/400',
-      dietary: ['vegetarian']
+      "id": "1",
+      "name": "Seasonal Soup",
+      "description": "Freshly prepared daily with local ingredients.",
+      "price": 9.50,
+      "category": "starters",
+      "image": "https://picsum.photos/seed/soup/600/400",
+      "dietary": ["vegetarian", "gluten-free"]
     },
     {
-      id: '2',
-      name: 'Burrata & Heirloom Tomato',
-      description: 'Creamy burrata, balsamic glaze, fresh basil, and toasted sourdough.',
-      price: 16,
-      category: 'starters',
-      image: 'https://picsum.photos/seed/burrata/600/400',
-      dietary: ['vegetarian', 'gluten-free-option']
+      "id": "2",
+      "name": "Zweierlei Burger",
+      "description": "Premium beef, house-made sauce, caramelized onions, and brioche bun.",
+      "price": 18.00,
+      "category": "mains",
+      "image": "https://picsum.photos/seed/burger/600/400"
     },
     {
-      id: '3',
-      name: 'Pan-Seared Scallops',
-      description: 'Hokkaido scallops with pea purée, crispy pancetta, and lemon butter.',
-      price: 28,
-      category: 'mains',
-      image: 'https://picsum.photos/seed/scallops/600/400'
-    },.j
-    {
-      id: '4',
-      name: 'Wild Mushroom Risotto',
-      description: 'Arborio rice with porcini, shiitake, and oyster mushrooms, finished with parmesan.',
-      price: 24,
-      category: 'mains',
-      image: 'https://picsum.photos/seed/risotto/600/400',
-      dietary: ['vegetarian', 'gluten-free']
-    },
-    {
-      id: '5',
-      name: 'Dark Chocolate Fondant',
-      description: 'Warm chocolate cake with a molten center, served with vanilla bean gelato.',
-      price: 12,
-      category: 'desserts',
-      image: 'https://picsum.photos/seed/chocolate/600/400',
-      dietary: ['vegetarian']
-    },
-    {
-      id: '6',
-      name: 'Artisanal Cheese Board',
-      description: 'Selection of local cheeses, honeycomb, grapes, and house-made crackers.',
-      price: 18,
-      category: 'desserts',
-      image: 'https://picsum.photos/seed/cheese/600/400',
-      dietary: ['vegetarian']
+      "id": "3",
+      "name": "Apple Strudel",
+      "description": "Traditional recipe with vanilla sauce and whipped cream.",
+      "price": 8.00,
+      "category": "desserts",
+      "image": "https://picsum.photos/seed/strudel/600/400",
+      "dietary": ["vegetarian"]
     }
   ]
-};
+}
