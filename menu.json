@@ -9,6 +9,15 @@
   "items": [
     {
       "id": "1",
+      "name": "Salat",
+      "description": "",
+      "price": 12.50,
+      "category": "starters",
+      "image": "https://raw.githubusercontent.com/Lukisan1860/Zweierlei/refs/heads/main/wiener_schnitzel_glaenzende_panade.jpg",
+      "dietary": ["vegetarian", "gluten-free"]
+    },
+    {
+      "id": "2",
       "name": "Schnitzel",
       "description": "Schweineschnitzel.",
       "price": 12.50,
@@ -17,7 +26,7 @@
       "dietary": ["vegetarian", "gluten-free"]
     },
     {
-      "id": "2",
+      "id": "3",
       "name": "Zweierlei Burger",
       "description": "",
       "price": 18.00,
@@ -25,7 +34,7 @@
       "image": "https://raw.githubusercontent.com/Lukisan1860/Zweierlei/refs/heads/main/chicken-burger.jpg"
     },
  {
-      "id": "3",
+      "id": "4",
       "name": "Spezi",
       "description": "",
       "price": 2.00,
