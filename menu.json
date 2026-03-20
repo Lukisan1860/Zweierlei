@@ -1,6 +1,4 @@
-import { RestaurantMenu } from './types';
 
-// Default menu data to show if the external fetch fails or hasn't been configured yet.
 export const DEFAULT_MENU: RestaurantMenu = {
   restaurantName: "L'Artisan Bistro",
   categories: [
