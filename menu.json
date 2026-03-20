@@ -12,7 +12,7 @@
       "name": "Schnitzel",
       "description": "Freshly prepared daily with local ingredients.",
       "price": 12.50,
-      "category": "Hauptgang",
+      "category": "mains",
       "image": "https://picsum.photos/seed/soup/600/400",
       "dietary": ["vegetarian", "gluten-free"]
     },
